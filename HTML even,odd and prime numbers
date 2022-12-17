@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+.body{
+   
+    width: 300px;
+    margin: 10px;
+    padding: 150px;
+    background-color: blue;
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/340f32116115637.605cc05c03a6b.jpg");
+}
+
+</style>
+<center>
+    <body>
+        <div class="body">
+            
+        <h1 style="color: white;">Numbers</h1>
+        <p style="color: white;">List of even,odd and prime numbers </p>
+
+        <button id="even" onclick="even()"">Even numbers</button>
+        <button id="odd" onclick="odd()">Odd numbers</button>
+        <button id="prime" onclick="prime()">Prime numbers</button>
+        </div>
+    
+        <script src="oddEven.js">
+        </script>
+    </body>
+
+
+</center>
+
+</html>
