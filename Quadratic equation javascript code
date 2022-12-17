@@ -1,0 +1,43 @@
+
+function quadratic(){
+
+
+    let a = document.getElementById("a").value;
+    
+    let b = document.getElementById("b").value;
+
+    let c = document.getElementById("c").value;
+    
+
+    let D = (b * b) -  (4 * a * c);
+
+
+    
+    let root1 = ((-b + Math.sqrt(D)) / (2 * a));
+
+    let root2 = ((-b - Math.sqrt(D)) / (2 * a));
+
+    document.getElementById('roots').value = root1 +" , "+ root2;
+     
+
+    
+    if (D > 0){ 
+     
+      document.getElementById('determinat').value = " D = "+D  + ",REAL and DISTINCT roots";
+    }
+
+    else if ( D == 0){
+        
+        document.getElementById('determinat').value = " D = "+D + ", TWO EQUAL real roots";
+    }
+
+
+    else {
+
+      document.getElementById('determinat').value = D+" D = "+D + ", TWO COMPLEX roots";
+
+    }
+        
+    
+}    
+    
